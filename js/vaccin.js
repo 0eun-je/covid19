@@ -9,7 +9,7 @@ class vaccin {
     onLoadVaccin(){
         let xhr = new XMLHttpRequest();
         let xmlObj;
-        const url = "https://github.com/0eun-je/covid19/blob/master/vaccin.xml";
+        const url = "../vaccin.xml";
         let seoulDef, incheonDef, daejeonDef, daeguDef, busanDef, ulsanDef, gwangjuDef, kyunggiDef,
             kangwonDef, chungbukDef, chungnamDef, kyungbukDef, kyungnamDef, jeonbukDef, jeonnamDef, jejuDef;
         
