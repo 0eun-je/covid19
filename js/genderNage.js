@@ -17,7 +17,7 @@ class genderNage {
     onLoadGenderNage() {
         let xhr = new XMLHttpRequest();
         let xmlObj;
-        const url = "../genderNage.xml";
+        const url = "../xml/genderNage.xml";
         // 남/녀 차트
         var genderChart = new Chart(document.getElementById("gender-doughnut-chart"), {
             type: 'doughnut',

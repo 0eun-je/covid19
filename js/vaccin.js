@@ -9,7 +9,7 @@ class vaccin {
     onLoadVaccin(){
         let xhr = new XMLHttpRequest();
         let xmlObj;
-        const url = "../vaccin.xml";
+        const url = "../xml/vaccin.xml";
         let seoulDef, incheonDef, daejeonDef, daeguDef, busanDef, ulsanDef, gwangjuDef, kyunggiDef,
             kangwonDef, chungbukDef, chungnamDef, kyungbukDef, kyungnamDef, jeonbukDef, jeonnamDef, jejuDef;
         
