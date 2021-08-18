@@ -1,0 +1,44 @@
+/* 가로너비 768px 이하 */
+.confirmed-title {
+    margin-right: 30px;
+}
+
+.sub-confirmed {
+    margin-right: 30px;
+}
+
+.release-title {
+    margin-left: 30px;
+}
+
+.sub-release {
+    margin-left: 30px;
+}
+
+.cure-title {
+    margin-right: 30px;
+}
+
+.sub-cure {
+    margin-right: 30px;
+}
+
+.death-title {
+    margin-left: 30px;
+}
+
+.sub-death {
+    margin-left: 30px;
+}
+
+.confirmed_container {
+    height: 500px;
+}
+
+.ratio_container .ratio-result span {
+    font-size: 50px;
+}
+
+.ratio_container .ratio-result span strong {
+    font-size: 60px;
+}

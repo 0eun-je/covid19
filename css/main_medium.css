@@ -1,0 +1,100 @@
+/* 가로너비 769~992px */
+.sub-value {
+    font-size: 50px;
+}
+
+.sub-value strong {
+    font-size: 55px;
+}
+
+.release-title {
+    margin-right: 30px;
+}
+
+.sub-release {
+    margin-right: 30px;
+}
+
+.cure-title {
+    margin-left: 30px;
+}
+
+.sub-cure {
+    margin-left: 30px;
+}
+
+.confirmed_container {
+    margin-right: 30px;
+}
+
+.confirmed-lanking {
+    margin-left: 30px;
+}
+
+.test_container {
+    margin: 0px 30px 15px 30px;
+    height: 470px;
+}
+
+.test_sub_container {
+    display: flex;
+    justify-content: center;
+}
+
+.posneg_container {
+    margin: 0px 30px  15px 30px;
+}
+
+.posneg_sub_container {
+    display: flex;
+    justify-content: center;
+}
+
+.gender_container {
+    margin: 0px 30px;
+}
+
+.gender_sub_container {
+    display: flex;
+    justify-content: center;
+}
+
+.search_container h4 {
+    font-size: 23px;
+}
+
+.search_container select {
+    width: 400px;
+}
+
+.fluctuation_container {
+    margin: 30px 30px 0px 30px;
+}
+
+.ratio_container {
+    margin: 10px 30px 0px 30px;
+}
+
+.ratio_container .ratio-result span {
+    font-size: 60px;
+}
+
+.ratio_container .ratio-result span strong {
+    font-size: 80px;
+}
+
+.foreign_container {
+    margin: 15px 30px 0px 30px;
+}
+
+.domestic_container {
+    margin: 10px 30px 0px 30px;
+}
+
+.notice {
+    margin: 5px 30px 10px 30px;
+}
+
+.notice-06 {
+    margin-bottom: 50px;
+}

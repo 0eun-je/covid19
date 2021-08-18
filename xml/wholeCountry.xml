@@ -1,0 +1,29 @@
+<response>
+    <header>
+        <resultCode>00</resultCode>
+        <resultMsg>NORMAL SERVICE.</resultMsg>
+    </header>
+    <body>
+        <items>
+            <item>
+            <accDefRate>1.4827923622</accDefRate>
+            <accExamCnt>10346047</accExamCnt>
+            <accExamCompCnt>10217614</accExamCompCnt>
+            <careCnt>6234</careCnt>
+            <clearCnt>143268</clearCnt>
+            <createDt>2021-06-21 09:40:21.025</createDt>
+            <deathCnt>2004</deathCnt>
+            <decideCnt>151506</decideCnt>
+            <examCnt>128433</examCnt>
+            <resutlNegCnt>10066108</resutlNegCnt>
+            <seq>549</seq>
+            <stateDt>20210621</stateDt>
+            <stateTime>00:00</stateTime>
+            <updateDt>null</updateDt>
+            </item>
+        </items>
+        <numOfRows>100</numOfRows>
+        <pageNo>1</pageNo>
+        <totalCount>1</totalCount>
+    </body>
+</response>

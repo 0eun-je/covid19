@@ -1,0 +1,134 @@
+<response>
+    <header>
+        <resultCode>00</resultCode>
+        <resultMsg>NORMAL SERVICE.</resultMsg>
+    </header>
+    <body>
+        <items>
+            <item>
+                <confCase>6805</confCase>
+                <confCaseRate>4.49</confCaseRate>
+                <createDt>2021-06-21 14:30:51.501</createDt>
+                <criticalRate>0</criticalRate>
+                <death>0</death>
+                <deathRate>0.00</deathRate>
+                <gubun>0-9</gubun>
+                <seq>9682</seq>
+                <updateDt>null</updateDt>
+            </item>
+            <item>
+                <confCase>10864</confCase>
+                <confCaseRate>7.17</confCaseRate>
+                <createDt>2021-06-21 14:30:51.501</createDt>
+                <criticalRate>0</criticalRate>
+                <death>0</death>
+                <deathRate>0.00</deathRate>
+                <gubun>10-19</gubun>
+                <seq>9681</seq>
+                <updateDt>null</updateDt>
+            </item>
+            <item>
+                <confCase>23005</confCase>
+                <confCaseRate>15.18</confCaseRate>
+                <createDt>2021-06-21 14:30:51.501</createDt>
+                <criticalRate>0.01</criticalRate>
+                <death>3</death>
+                <deathRate>0.15</deathRate>
+                <gubun>20-29</gubun>
+                <seq>9680</seq>
+                <updateDt>null</updateDt>
+            </item>
+            <item>
+                <confCase>21107</confCase>
+                <confCaseRate>13.93</confCaseRate>
+                <createDt>2021-06-21 14:30:51.501</createDt>
+                <criticalRate>0.04</criticalRate>
+                <death>8</death>
+                <deathRate>0.40</deathRate>
+                <gubun>30-39</gubun>
+                <seq>9679</seq>
+                <updateDt>null</updateDt>
+            </item>
+            <item>
+                <confCase>23225</confCase>
+                <confCaseRate>15.33</confCaseRate>
+                <createDt>2021-06-21 14:30:51.501</createDt>
+                <criticalRate>0.06</criticalRate>
+                <death>15</death>
+                <deathRate>0.75</deathRate>
+                <gubun>40-49</gubun>
+                <seq>9678</seq>
+                <updateDt>null</updateDt>
+            </item>
+            <item>
+                <confCase>27820</confCase>
+                <confCaseRate>18.36</confCaseRate>
+                <createDt>2021-06-21 14:30:51.501</createDt>
+                <criticalRate>0.26</criticalRate>
+                <death>73</death>
+                <deathRate>3.64</deathRate>
+                <gubun>50-59</gubun>
+                <seq>9677</seq>
+                <updateDt>null</updateDt>
+            </item>
+            <item>
+                <confCase>22622</confCase>
+                <confCaseRate>14.93</confCaseRate>
+                <createDt>2021-06-21 14:30:51.5</createDt>
+                <criticalRate>1.05</criticalRate>
+                <death>237</death>
+                <deathRate>11.83</deathRate>
+                <gubun>60-69</gubun>
+                <seq>9676</seq>
+                <updateDt>null</updateDt>
+            </item>
+            <item>
+                <confCase>10199</confCase>
+                <confCaseRate>6.73</confCaseRate>
+                <createDt>2021-06-21 14:30:51.5</createDt>
+                <criticalRate>5.6</criticalRate>
+                <death>571</death>
+                <deathRate>28.49</deathRate>
+                <gubun>70-79</gubun>
+                <seq>9675</seq>
+                <updateDt>null</updateDt>
+            </item>
+            <item>
+                <confCase>5859</confCase>
+                <confCaseRate>3.87</confCaseRate>
+                <createDt>2021-06-21 14:30:51.5</createDt>
+                <criticalRate>18.72</criticalRate>
+                <death>1097</death>
+                <deathRate>54.74</deathRate>
+                <gubun>80 이상</gubun>
+                <seq>9674</seq>
+                <updateDt>null</updateDt>
+            </item>
+            <item>
+                <confCase>75397</confCase>
+                <confCaseRate>49.77</confCaseRate>
+                <createDt>2021-06-21 14:30:51.5</createDt>
+                <criticalRate>1.34</criticalRate>
+                <death>1013</death>
+                <deathRate>50.55</deathRate>
+                <gubun>여성</gubun>
+                <seq>9673</seq>
+                <updateDt>null</updateDt>
+            </item>
+            <item>
+                <confCase>76109</confCase>
+                <confCaseRate>50.23</confCaseRate>
+                <createDt>2021-06-21 14:30:51.5</createDt>
+                <criticalRate>1.3</criticalRate>
+                <death>991</death>
+                <deathRate>49.45</deathRate>
+                <gubun>남성</gubun>
+                <seq>9672</seq>
+                <updateDt>null</updateDt>
+            </item>
+        </items>
+    <numOfRows>100</numOfRows>
+    <pageNo>1</pageNo>
+    <totalCount>11</totalCount>
+    </body>
+</response>

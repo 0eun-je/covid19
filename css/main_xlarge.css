@@ -1,0 +1,74 @@
+/* 가로너비 1201~1480px */
+.sub-value {
+    font-size: 35px;
+}
+
+.sub-value strong {
+    font-size: 40px;
+}
+
+.result-title {
+    width: 140px;
+    font-size: 15px;
+}
+
+.result-value {
+    width: 180px;
+    font-size: 10px;
+}
+
+.result-value strong {
+    font-size: 13px;
+}
+
+.test_container {
+    height: 550px;
+}
+
+.posneg_container {
+    height: 550px;
+}
+
+.gender_container {
+    height: 550px;
+}
+
+.ratio_container .ratio-result span {
+    font-size: 55px;
+}
+
+.ratio_container .ratio-result span strong {
+    font-size: 65px;
+}
+
+.foreign_container .foreign-icon {
+    font-size: 80px;
+}
+
+.foreign_container h6 {
+    font-size: 25px;
+}
+
+.foreign_container span {
+    font-size: 50px;
+}
+
+.foreign_container span strong {
+    font-size: 70px;
+}
+
+.domestic_container .domestic-icon {
+    font-size: 80px;
+}
+
+.domestic_container h6 {
+    font-size: 25px;
+}
+
+.domestic_container span {
+    font-size: 50px;
+}
+
+.domestic_container span strong {
+    font-size: 70px;
+}

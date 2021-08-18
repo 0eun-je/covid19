@@ -1,0 +1,526 @@
+/************** FONT **************/
+
+@font-face {
+    font-family: 'Gmarket bold';
+    src: url(../font/GmarketSansTTF/GmarketSansTTFBold.ttf);
+}
+@font-face{
+    font-family: 'Gmarket medium';
+    src: url(../font/GmarketSansTTF/GmarketSansTTFMedium.ttf);
+}
+@font-face{
+    font-family: 'Gmarket light';
+    src: url(../font/GmarketSansTTF/GmarketSansTTFLight.ttf);
+}
+
+/************** COMMON **************/
+.body__container {
+    background: #FAF0F0;
+    font-family: 'Gmarket medium', sans-serif;
+    color: #333333;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.title {
+    padding: 5px 20px;
+    margin: 30px 0px 0px 30px;
+    border-left: 8px solid #FFD700;
+    font-size: 25px;
+    font-family: 'Gmarket bold';
+}
+
+/************** HEADER **************/
+.navbar-brand {
+    padding: 0px 70px 0px 30px;
+    font-family: 'Gmarket bold';
+    font-size: large;
+}
+
+.nav-item {
+    margin-right: 40px;
+    font-family: 'Gmarket bold';
+    font-size: 18px;
+}
+
+#up-button {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    width: 70px;
+    height: 70px;
+    z-index: 1000;
+}
+
+/************** COVID-19 현황 **************/
+/* 확진자, 퇴원, 격리중, 사망자 수 */
+.sub-title {
+    display: block;
+    padding: 20px;
+    margin: 20px 0px 10px 0px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .1);
+    font-family: 'Gmarket bold';
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.sub-value {
+    padding: 70px 20px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .1);
+    font-size: 50px;
+}
+
+.sub-value strong {
+    margin-right: 10px;
+    font-family: 'Gmarket bold';
+    font-size: 55px;
+}
+
+.confirmed-title {
+    margin-left: 30px;
+    background: #AB120D;
+}
+
+.sub-confirmed {
+    margin-left: 30px;
+    background: #FAE1E1;
+    border-bottom: 10px solid #AB120D;
+    color: #AB120D;
+}
+
+.release-title {
+    background: #FFC107;
+}
+
+.sub-release {
+    border-bottom: 10px solid #FFC107;
+    color: #FFC107;
+}
+
+.cure-title {
+    background: #033E7C;
+}
+
+.sub-cure {
+    background: #d6eaff;
+    border-bottom: 10px solid #033E7C;
+    color: #033E7C;
+}
+
+.death-title {
+    margin-right: 30px;
+    background: #0957AA;
+}
+
+.sub-death {
+    margin-right: 30px;
+    border-bottom: 10px solid #0957AA;
+    color: #0957AA;
+}
+
+/* 지역별 확진자 차트 */
+.confirmed_container {
+    height: 530px;
+    margin: 30px 0px 20px 30px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.confirmed_container h5 {
+    padding: 20px 20px 0px 20px;
+    font-family: 'Gmarket bold';
+    font-size: 26px;
+}
+
+.confirmed-chart {
+    margin: 0px 20px;
+}
+
+/* 지역별 확진자 랭킹 */
+.confirmed-lanking {
+    height: auto;
+    padding: 0;
+    margin: 30px 30px 20px 0px;
+    background: #FFFFFF;
+}
+
+.confirmed-lanking .lanking-title {
+    padding: 22px;
+    background: #1687A7;
+    font-family: 'Gmarket bold';
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.confirmed-lanking li {
+    padding: 16px;
+    border-bottom: 10px solid #FAF0F0;
+    font-size: 22px;
+    text-align: center;
+}
+
+/* 검사, 양성/음성, 남/녀 */
+.result-title {
+    display: inline-block;
+    width: 90px;
+    height: 70px;
+    padding-top: 25px;
+    background: pink;
+    font-family: 'Gmarket bold';
+    font-size: 17px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.result-value {
+    display: inline-block;
+    width: 120px;
+    height: 70px;
+    padding-top: 25px;
+    margin: 0px 3px;
+    background: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+}
+
+.result-value strong {
+    margin-right: 5px;
+    font-family: 'Gmarket bold';
+    font-size: 16px;
+}
+
+.test_container {
+    height: 480px;
+    padding: 20px 0px;
+    margin: 10px 0px 10px 30px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.test_sub_container {
+    display: flex;
+    justify-content: center;
+}
+
+.test_container .result-title {
+    background: #FB9300;
+}
+
+.test_container .result-value {
+    background: #F5E6CA;
+    border-right: 5px solid #FB9300;
+    color: #FB9300;
+}
+
+.test-chart {
+    margin: 20px 10px;
+    height: 350px;
+}
+
+.posneg_container {
+    height: 480px;
+    padding: 20px 0px 20px 5px;
+    margin: 10px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.posneg_sub_container {
+    display: flex;
+    justify-content: center;
+}
+
+.posneg_container .result-title {
+    background: #583D72;
+}
+
+.posneg_container .result-value {
+    background: #FAEEE7;
+    border-right: 5px solid #480032;
+    color: #480032;
+}
+
+.posneg-chart {
+    margin: 20px 10px;
+    height: 350px;
+}
+
+.gender_container {
+    height: 480px;
+    padding: 20px 0px;
+    margin: 10px 30px 10px 0px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.gender_sub_container {
+    display: flex;
+    justify-content: center;
+}
+
+.gender_container .result-title {
+    background: #033E7C;
+}
+
+.gender_container .result-value {
+    background: #d6eaff;
+    border-right: 5px solid #033E7C;
+    color: #033E7C;
+}
+
+.gender-chart {
+    margin: 20px 10px;
+    height: 350px;
+}
+
+/* 연령대 차트 */
+.age_container {
+    height: 500px;
+    margin: 30px 30px 15px 30px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.age_container h5 {
+    padding: 20px 20px 10px 20px;
+    font-family: 'Gmarket bold';
+    font-size: 26px;
+}
+
+.age_container .age_chart {
+    height: 400px;
+    margin: 0px 20px;
+}
+
+/************** COVID-19 지역별 현황 **************/
+/* 지역 검색 */
+.search_container {
+    display: flex;
+    padding: 18px;
+    margin: 20px 30px;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.search_container h4 {
+    margin: 10px 30px 0px 0px;
+    font-family: 'Gmarket bold';
+    font-size: 25px;
+}
+
+.search_container select {
+    width: 600px;
+    height: 45px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.search_container .search {
+    padding: 0px 20px;
+}
+
+/* 전일 대비 증감 수, 10만명 당 발생 수 */
+.fluctuation_container {
+    height: 500px;
+    margin: 30px 0px 30px 30px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.fluctuation_container h5 {
+    padding: 20px 20px 10px 20px;
+    font-family: 'Gmarket bold';
+    font-size: 26px;
+}
+
+.fluctuation_container .fluctuation-chart {
+    height: 400px;
+    margin: 0px 20px;
+}
+
+.ratio_container {
+    height: 500px;
+    margin: 30px 30px 30px 0px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.ratio_container h5 {
+    padding: 20px 20px 10px 20px;
+    font-family: 'Gmarket bold';
+    font-size: 26px;
+}
+
+.ratio_container .ratio-result {
+    height: 400px;
+    padding-top: 80px;
+    margin: 0px 20px;
+    background: #FFFFFF;
+    border: 8px dashed #8B4C8C;
+    text-align: center;
+}
+
+.ratio_container .ratio-result span {
+    font-size: 60px;
+    color: #444444;
+}
+
+.ratio_container .ratio-result span strong {
+    margin-right: 10px;
+    font-family: 'Gmarket bold';
+    font-size: 80px;
+}
+
+/* 해외 유입 수, 지역 발생 수 */
+.foreign_container {
+    display: flex;
+    height: 200px;
+    margin: 10px 0px 20px 30px;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.foreign_container .foreign-icon {
+    margin-right: 40px;
+    font-size: 100px;
+    color: #0957AA;
+}
+
+.foreign_container h6 {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.foreign_container span {
+    margin-right: 50px;
+    font-size: 50px;
+    color: #0957AA;
+}
+
+.foreign_container span strong {
+    margin-right: 10px;
+    font-family: 'Gmarket bold';
+    font-size: 80px;
+}
+
+.domestic_container {
+    display: flex;
+    height: 200px;
+    margin: 10px 30px 20px 0px;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.domestic_container .domestic-icon {
+    margin-right: 40px;
+    font-size: 100px;
+    color: #AB120D;
+}
+
+.domestic_container h6 {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.domestic_container span {
+    margin-right: 50px;
+    font-size: 50px;
+    color: #AB120D;
+}
+
+.domestic_container span strong {
+    margin-right: 10px;
+    font-family: 'Gmarket bold';
+    font-size: 80px;
+}
+
+/************** 예방접종 현황 **************/
+.vaccin_container {
+    height: 600px;
+    margin: 20px 30px 20px 30px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.vaccin_container h5 {
+    padding: 20px 20px 10px 20px;
+    font-family: 'Gmarket bold';
+    font-size: 26px;
+}
+
+.vaccin_container .vaccin-chart {
+    height: 500px;
+    margin: 0px 20px 20px 20px;
+}
+
+/************** 대응수칙 **************/
+.notice {
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.notice:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+}
+
+.notice-01 {
+    margin: 20px 0px 15px 30px;
+    background: url(../img/banner01.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.notice-02 {
+    margin: 20px 30px 15px 0px;
+    background: url(../img/banner02.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.notice-03 {
+    margin: 10px 0px 10px 30px;
+    background: url(../img/banner03.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.notice-04 {
+    margin: 10px 30px 10px 0px;
+    background: url(../img/banner04.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.notice-05 {
+    margin: 10px 0px 70px 30px;
+    background: url(../img/banner05.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.notice-06 {
+    margin: 10px 30px 70px 0px;
+    background: url(../img/banner06.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+/************** FOOTER **************/
+footer {
+    height: 60px;
+    background: #444444;
+}
+
+footer p {
+    padding-top: 20px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+}
