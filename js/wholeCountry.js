@@ -14,7 +14,7 @@ class wholeCountry{
         let xmlObj; //xml response 저장
         let stringDecideCnt, stringClearCnt, stringCareCnt, stringDeathCnt, stringAccExamCnt,
             stringAccExamCompCnt, stringResultlNegCnt;  // 콤마를 적용시킨 변수
-        const url = 'https://github.com/0eun-je/covid19/blob/master/wholeCountry.xml';
+        const url = 'C:\Users\제영은\Desktop\Project\portfolio\covid19';
         // const url = 'https://cors-anywhere.herokuapp.com/http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson?serviceKey=M41JaRzOkoBYMF6MLAl5zCLF%2BOqERx0Y0RKGnYWrmQx31QlfZfg9%2FsmL3Yxn47NQdmhhkO%2F7sF5I9RBlcUaPeg%3D%3D&pageNo=1&numOfRows=100&startCreateDt=20210625&endCreateDt=20210625';
         // 검사 결과 차트
         var testChart = new Chart(document.getElementById("test-bar-chart"), {
