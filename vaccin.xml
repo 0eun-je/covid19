@@ -1,0 +1,189 @@
+<results>
+    <currentCount>1860</currentCount>
+        <data>
+            <item>
+                <col name="totalSecondCnt">4.047846e+06</col>
+                <col name="accumulatedFirstCnt">1.5014314e+07</col>
+                <col name="accumulatedSecondCnt">4.046808e+06</col>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">505</col>
+                <col name="secondCnt">1038</col>
+                <col name="sido">전국</col>
+                <col name="totalFirstCnt">1.5014819e+07</col>
+            </item>
+            <item>
+                <col name="accumulatedFirstCnt">2.774731e+06</col>
+                <col name="accumulatedSecondCnt">747815</col>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">66</col>
+                <col name="secondCnt">65</col>
+                <col name="sido">서울특별시</col>
+                <col name="totalFirstCnt">2.774797e+06</col>
+                <col name="totalSecondCnt">747880</col>
+            </item>
+            <item>
+                <col name="sido">부산광역시</col>
+                <col name="totalFirstCnt">1.081657e+06</col>
+                <col name="totalSecondCnt">255379</col>
+                <col name="accumulatedFirstCnt">1.08164e+06</col>
+                <col name="accumulatedSecondCnt">255362</col>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">17</col>
+                <col name="secondCnt">17</col>
+            </item>
+            <item>
+                <col name="accumulatedSecondCnt">166863</col>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">151</col>
+                <col name="secondCnt">0</col>
+                <col name="sido">대구광역시</col>
+                <col name="totalFirstCnt">634742</col>
+                <col name="totalSecondCnt">166863</col>
+                <col name="accumulatedFirstCnt">634591</col>
+            </item>
+            <item>
+                <col name="accumulatedFirstCnt">786667</col>
+                <col name="accumulatedSecondCnt">199602</col>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">35</col>
+                <col name="secondCnt">35</col>
+                <col name="sido">인천광역시</col>
+                <col name="totalFirstCnt">786702</col>
+                <col name="totalSecondCnt">199637</col>
+            </item>
+            <item>
+                <col name="sido">광주광역시</col>
+                <col name="totalFirstCnt">420126</col>
+                <col name="totalSecondCnt">122405</col>
+                <col name="accumulatedFirstCnt">420126</col>
+                <col name="accumulatedSecondCnt">122405</col>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">0</col>
+                <col name="secondCnt">0</col>
+            </item>
+            <item>
+                <col name="totalSecondCnt">109441</col>
+                <col name="accumulatedFirstCnt">397277</col>
+                <col name="accumulatedSecondCnt">109434</col>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">8</col>
+                <col name="secondCnt">7</col>
+                <col name="sido">대전광역시</col>
+                <col name="totalFirstCnt">397285</col>
+            </item>
+            <item>
+                <col name="accumulatedFirstCnt">289575</col>
+                <col name="accumulatedSecondCnt">73965</col>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">1</col>
+                <col name="secondCnt">0</col>
+                <col name="sido">울산광역시</col>
+                <col name="totalFirstCnt">289576</col>
+                <col name="totalSecondCnt">73965</col>
+            </item>
+            <item>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">0</col>
+                <col name="secondCnt">0</col>
+                <col name="sido">세종특별자치시</col>
+                <col name="totalFirstCnt">76039</col>
+                <col name="totalSecondCnt">22998</col>
+                <col name="accumulatedFirstCnt">76039</col>
+                <col name="accumulatedSecondCnt">22998</col>
+            </item>
+            <item>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">114</col>
+                <col name="secondCnt">828</col>
+                <col name="sido">경기도</col>
+                <col name="totalFirstCnt">3.42442e+06</col>
+                <col name="totalSecondCnt">930548</col>
+                <col name="accumulatedFirstCnt">3.424306e+06</col>
+                <col name="accumulatedSecondCnt">929720</col>
+            </item>
+            <item>
+                <col name="secondCnt">6</col>
+                <col name="sido">강원도</col>
+                <col name="totalFirstCnt">541575</col>
+                <col name="totalSecondCnt">142209</col>
+                <col name="accumulatedFirstCnt">541569</col>
+                <col name="accumulatedSecondCnt">142203</col>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">6</col>
+            </item>
+            <item>
+                <col name="secondCnt">0</col>
+                <col name="sido">충청북도</col>
+                <col name="totalFirstCnt">510453</col>
+                <col name="totalSecondCnt">135863</col>
+                <col name="accumulatedFirstCnt">510453</col>
+                <col name="accumulatedSecondCnt">135863</col>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">0</col>
+            </item>
+            <item>
+                <col name="accumulatedFirstCnt">677173</col>
+                <col name="accumulatedSecondCnt">191879</col>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">8</col>
+                <col name="secondCnt">8</col>
+                <col name="sido">충청남도</col>
+                <col name="totalFirstCnt">677181</col>
+                <col name="totalSecondCnt">191887</col>
+            </item>
+            <item>
+                <col name="accumulatedFirstCnt">645571</col>
+                <col name="accumulatedSecondCnt">182098</col>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">0</col>
+                <col name="secondCnt">0</col>
+                <col name="sido">전라북도</col>
+                <col name="totalFirstCnt">645571</col>
+                <col name="totalSecondCnt">182098</col>
+            </item>
+            <item>
+                <col name="accumulatedSecondCnt">214417</col>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">36</col>
+                <col name="secondCnt">36</col>
+                <col name="sido">전라남도</col>
+                <col name="totalFirstCnt">710004</col>
+                <col name="totalSecondCnt">214453</col>
+                <col name="accumulatedFirstCnt">709968</col>
+            </item>
+            <item>
+                <col name="accumulatedSecondCnt">228155</col>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">24</col>
+                <col name="secondCnt">0</col>
+                <col name="sido">경상북도</col>
+                <col name="totalFirstCnt">864097</col>
+                <col name="totalSecondCnt">228155</col>
+                <col name="accumulatedFirstCnt">864073</col>
+            </item>
+            <item>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">3</col>
+                <col name="secondCnt">0</col>
+                <col name="sido">경상남도</col>
+                <col name="totalFirstCnt">988146</col>
+                <col name="totalSecondCnt">272372</col>
+                <col name="accumulatedFirstCnt">988143</col>
+                <col name="accumulatedSecondCnt">272372</col>
+            </item>
+            <item>
+                <col name="accumulatedSecondCnt">51657</col>
+                <col name="baseDate">2021-06-21 00:00:00</col>
+                <col name="firstCnt">36</col>
+                <col name="secondCnt">36</col>
+                <col name="sido">제주특별자치도</col>
+                <col name="totalFirstCnt">192448</col>
+                <col name="totalSecondCnt">51693</col>
+                <col name="accumulatedFirstCnt">192412</col>
+            </item>
+        </data>
+    <matchCount>1860</matchCount>
+    <page>1</page>
+    <perPage>2000</perPage>
+    <totalCount>1860</totalCount>
+</results>
